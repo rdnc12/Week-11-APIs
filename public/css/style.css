@@ -1,0 +1,10 @@
+.button-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 7px;
+}
+
+.main-div {
+  display: flex;
+  justify-content: center;
+}
