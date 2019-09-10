@@ -4,18 +4,28 @@
   margin-top: 7px;
 }
 
-.form-control:{
+.btn a,
+.btn a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.form-control {
   background-color: whitesmoke;
 }
-.form-control:hover{
-  background-color:rgb(217, 227, 236); /* Green */
+.form-control:hover {
+  background-color: rgb(217, 227, 236);
 }
 .main-div {
   display: flex;
   justify-content: center;
+  display: block;
+}
+#searchList {
+  margin-top: 30px;
 }
 
-.imgContainer{
-      margin-bottom: 30px;
-      margin-top: 30px;
+.imgContainer {
+  margin-bottom: 30px;
+  margin-top: 30px;
 }

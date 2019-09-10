@@ -3,17 +3,18 @@
   justify-content: center;
   margin-top: 7px;
 }
+
 .btn a,
 .btn a:hover {
   color: white;
   text-decoration: none;
 }
 
-.form-control: {
+.form-control {
   background-color: whitesmoke;
 }
 .form-control:hover {
-  background-color: rgb(217, 227, 236); /* Green */
+  background-color: rgb(217, 227, 236);
 }
 .main-div {
   display: flex;
