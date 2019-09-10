@@ -3,6 +3,10 @@
   justify-content: center;
   margin-top: 7px;
 }
+a,a:hover{
+  color: white;
+  text-decoration: none;
+}
 
 .form-control:{
   background-color: whitesmoke;
