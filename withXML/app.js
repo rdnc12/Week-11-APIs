@@ -17,7 +17,7 @@ $("#searchButton").on('click', () => {
             var wiki = JSON.parse(xhr.responseText);
             for (var i = 0; i < wiki[1].length; i++) {
                 var searchData = wiki[1][i];
-                var searchDetails = wiki[2][i].substring(0, 71) + "...";
+                var searchDetails = wiki[2][i].substring(0, 151) + "...";
                 var searchLink = wiki[3][i];
                 UList.append(`<li class="list-group-item">${i+1}-) 
                 ${searchData}
